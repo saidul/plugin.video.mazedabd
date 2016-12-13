@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.mazedabd"
+	name="Mazedabd"
+	version="0.1.0"
+	provider-name="Saidul">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="main.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Server explorer for old ftp server</summary>
+    <description lang="en">Explores and plays media files from mazedabd server</description>
+    <platform>all</platform>
+    <forum>http://forum.kodi.tv</forum>
+    <source>https://github.com/saidul/plugin.video.mazedabd</source>
+    <website>http://kodi.tv</website>
+    <email>hello@saidul.me</email>
+    <license>GPL v2.0</license>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+    <news>Initial release</news>
+  </extension>
+</addon>
